@@ -1,0 +1,11 @@
+.container {
+    display: flex; /* Définit un conteneur flex */
+ 
+
+.item {
+    flex: 1; /* Permet à chaque élément d'occuper la même quantité d'espace disponible */
+   flex-direction: row;
+}
+    border: 1px solid #d32121;
+    
+}
