@@ -1,9 +1,83 @@
+.generale {
+  display: flex;
+  flex-wrap: row wrap;
+  height: 100vh;
+}
+
+.carreBlue {
+  width: 40vw;
+  background-color: aqua;
+}
 .container {
   display: flex;
-
+  flex-direction: column;
+  padding: 15px;
+  width: 60vw;
+}
+.container1,
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: row;
 }
 
 .item {
-  width: 20px;
-  height: 20px;
+  width: 40%;
+  box-sizing: border-box;
+
+
 }
+
+.conainer4 {
+  background-color: blue;
+}
+
+.carreJaune {
+  display: flex;
+  padding: 7vw;
+  background-color: #b8901c;
+}
+.para1 {
+  text-align: center;
+  background-color: rgb(207, 212, 212);
+}
+.img1 {
+  transform: translateY(-200%);
+  width: 40%;
+  box-sizing: border-box;
+
+}
+
+.container5 {
+  position: relative;
+  display: inline-block; /* Pour que le conteneur s'adapte à la taille de l'image */
+}
+
+img {
+  display: block; /* Pour éviter les espaces supplémentaires autour de l'image */
+  width: 100%; /* Pour s'assurer que l'image remplit complètement le conteneur */
+}
+
+h1 {
+  position: absolute; /* Position absolue pour superposer les éléments */
+  top: 2%; /* Aligner au centre vertical */
+  height: 70%; /* Aligner au centre horizontal */
+  color: white; /* Couleur du texte */
+  background-color: rgb(26, 23, 23);
+}
+
+.buttom {
+  position: absolute; /* Position absolue pour superposer les éléments */
+  top: 20%; /* Aligner au centre vertical *
+  color: white; /* Couleur du texte */
+ 
+}
+
+.para2 {
+  padding: 7vw;
+  background-color: #969695;
+  margin-top: -15%;
+  padding: 15%;
+}
+
+
